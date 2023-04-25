@@ -26,7 +26,13 @@ This project teaches basic building blocks on writing a Rust program with respec
 Enjoy the game 😊
 
 # Project 3: Dungeon Crawl
-An adventurer who is in a dungeon to find the *Amulet of Yala* (Yet Another Lost Amulet) and fight monsters on the path. This Amulet will save the adventurer's village from sickness and death.
+An adventurer who is in a dungeon to find the *Amulet of Yala* (Yet Another Lost Amulet) and fight monsters on the path. This Amulet will save the adventurer's village from sickness and death. This game uses the art and graphics: Floor, wall and adventuerer graphics by Buch<sup>1</sup>. Potion and Scroll graphics from Melissa Krautheim's *Fantasy Magic Set*<sup>2</sup>. Weaponary from Melle's *Fantasy Sword Set*<sup>3</sup>. Monsters from the game *Dungeon Crawl Stone Soup* (CC0 license), packaged by Chris Hamons<sup>4</sup>.
+<ol>
+<li>https://opengameart.org/content/unfinished-dungeon-tileset</li>
+<li>https://opengameart.org/content/fantasy-magic-set</li>
+<li>https://opengameart.org/content/fantasy-sword-set</li>
+<li>https://github.com/crawl/tiles</li>
+</ol>
 
 This project teaches several concepts of Rust, like, *creating and working with modules and crates, for and for_each loops, derives, tuples, vectors*
 ### Running the program.
