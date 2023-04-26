@@ -1,11 +1,9 @@
-use legion::systems::CommandBuffer;
-
 use crate::prelude::*;
 
 #[system]
-#[write_component(Point)]
+#[read_component(Point)]
 #[read_component(MovingRandomly)]
-pub fn random_move(ecs: &mut SubWorld, commands: &mut CommandBuffer) {
+pub fn random_move(ecs: &SubWorld, commands: &mut CommandBuffer) {
     let mut movers = <(Entity, &Point, &MovingRandomly)>::query();
     movers.iter(ecs).for_each(|(entity, pos, _)| {
         let mut rng = RandomNumberGenerator::new();
@@ -23,5 +21,5 @@ pub fn random_move(ecs: &mut SubWorld, commands: &mut CommandBuffer) {
                 destination,
             },
         ));
-    })
+    });
 }

@@ -1,5 +1,3 @@
-use legion::systems::CommandBuffer;
-
 use crate::prelude::*;
 
 #[system]

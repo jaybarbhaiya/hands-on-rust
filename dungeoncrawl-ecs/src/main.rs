@@ -8,6 +8,7 @@ mod turn_state;
 
 mod prelude {
     pub use bracket_lib::prelude::*;
+    pub use legion::systems::*;
     pub use legion::world::*;
     pub use legion::*;
 
